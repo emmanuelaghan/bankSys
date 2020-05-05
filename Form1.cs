@@ -58,7 +58,10 @@ namespace BankSys
 
                 if (username == "username" && password == "password")
                 {
-                    label4.Text = "Log in successful";
+                    //label4.Text = "Log in successful";
+                    progressBarForm2 pr = new progressBarForm2();
+                    this.Hide();
+                    pr.Show();
 
                 }
                 else

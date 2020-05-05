@@ -52,10 +52,28 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="mainForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainForm2.Designer.cs">
+      <DependentUpon>mainForm2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="progressBarForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="progressBarForm2.Designer.cs">
+      <DependentUpon>progressBarForm2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainForm2.resx">
+      <DependentUpon>mainForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="progressBarForm2.resx">
+      <DependentUpon>progressBarForm2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
