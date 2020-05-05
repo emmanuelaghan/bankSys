@@ -1,0 +1,10 @@
+C:\Users\user\source\repos\BankSys\BankSys\bin\Debug\BankSys.exe.config
+C:\Users\user\source\repos\BankSys\BankSys\bin\Debug\BankSys.exe
+C:\Users\user\source\repos\BankSys\BankSys\bin\Debug\BankSys.pdb
+C:\Users\user\source\repos\BankSys\BankSys\obj\Debug\BankSys.csprojAssemblyReference.cache
+C:\Users\user\source\repos\BankSys\BankSys\obj\Debug\BankSys.Form1.resources
+C:\Users\user\source\repos\BankSys\BankSys\obj\Debug\BankSys.Properties.Resources.resources
+C:\Users\user\source\repos\BankSys\BankSys\obj\Debug\BankSys.csproj.GenerateResource.cache
+C:\Users\user\source\repos\BankSys\BankSys\obj\Debug\BankSys.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\BankSys\BankSys\obj\Debug\BankSys.exe
+C:\Users\user\source\repos\BankSys\BankSys\obj\Debug\BankSys.pdb
