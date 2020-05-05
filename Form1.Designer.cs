@@ -57,6 +57,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1342, 744);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label3
             // 
@@ -76,6 +77,7 @@
             this.button2.TabIndex = 5;
             this.button2.Text = "Cancel";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -96,6 +98,7 @@
             this.txtpass.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.txtpass.Location = new System.Drawing.Point(520, 425);
             this.txtpass.Name = "txtpass";
+            this.txtpass.PasswordChar = '*';
             this.txtpass.Size = new System.Drawing.Size(360, 24);
             this.txtpass.TabIndex = 3;
             // 
@@ -138,14 +141,13 @@
             this.label4.Font = new System.Drawing.Font("Arial Unicode MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(913, 431);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(42, 18);
+            this.label4.Size = new System.Drawing.Size(0, 18);
             this.label4.TabIndex = 7;
-            this.label4.Text = "label4";
             // 
             // timer1
             // 
             this.timer1.Enabled = true;
-            this.timer1.Interval = 4000;
+            this.timer1.Interval = 40000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1

@@ -37,20 +37,40 @@ namespace BankSys
             password = txtpass.Text;
             count = count + 1;
 
-            if (count > 3)
+            if (count > 4)
             {
-                MessageBox.Show("You have MORE THAN 3 attempted Logins. Please contact your SYSTEM ADMINISTRATOR.");
+                MessageBox.Show("You have MORE THAN 4 attempted Logins. Please contact your SYSTEM ADMINISTRATOR.");
                 Application.Exit();
             }
 
-            if (username == "username" && password == "password") 
+            if (username == "" && password == "")
             {
-                label4.Text = "Log in successful";
-
+                label4.Text = "Please input Username or email and Password";
             }
+
+            else if (username.Length >= 10 && password.Length >= 10)
+            {
+                label4.Text = "Should each not exceed 10 characters";
+            }
+
             else
             {
-                label4.Text = "Invalid Username and password";
+
+                if (username == "username" && password == "password")
+                {
+                    label4.Text = "Log in successful";
+
+                }
+                else
+                {
+                    label4.Text = "Invalid Username and password";
+
+                    txtuser.Clear();
+                    txtpass.Clear();
+
+                    txtuser.Focus();
+
+                }
 
             }
 
@@ -59,6 +79,16 @@ namespace BankSys
         private void timer1_Tick(object sender, EventArgs e)
         {
             label4.Text = "";
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
