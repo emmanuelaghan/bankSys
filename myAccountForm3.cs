@@ -10,22 +10,16 @@ using System.Windows.Forms;
 
 namespace BankSys
 {
-    public partial class mainForm2 : Form
+    public partial class myAccountForm3 : Form
     {
-        public mainForm2()
+        public myAccountForm3()
         {
             InitializeComponent();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void label6_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            myAccountForm3 account = new myAccountForm3();
-            account.Show();
         }
     }
 }

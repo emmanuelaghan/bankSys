@@ -58,6 +58,12 @@
     <Compile Include="mainForm2.Designer.cs">
       <DependentUpon>mainForm2.cs</DependentUpon>
     </Compile>
+    <Compile Include="myAccountForm3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="myAccountForm3.Designer.cs">
+      <DependentUpon>myAccountForm3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="progressBarForm2.cs">
       <SubType>Form</SubType>
@@ -71,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="mainForm2.resx">
       <DependentUpon>mainForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="myAccountForm3.resx">
+      <DependentUpon>myAccountForm3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="progressBarForm2.resx">
       <DependentUpon>progressBarForm2.cs</DependentUpon>

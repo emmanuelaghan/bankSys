@@ -10,3 +10,4 @@ C:\Users\user\source\repos\BankSys\BankSys\obj\Debug\BankSys.exe
 C:\Users\user\source\repos\BankSys\BankSys\obj\Debug\BankSys.pdb
 C:\Users\user\source\repos\BankSys\BankSys\obj\Debug\BankSys.progressBarForm2.resources
 C:\Users\user\source\repos\BankSys\BankSys\obj\Debug\BankSys.mainForm2.resources
+C:\Users\user\source\repos\BankSys\BankSys\obj\Debug\BankSys.myAccountForm3.resources
